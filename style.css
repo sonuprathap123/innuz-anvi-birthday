@@ -16,3 +16,22 @@ main{max-width:1160px;margin:auto;padding:0 24px}.hero{min-height:550px;display:
 .toast{position:fixed;bottom:20px;left:50%;transform:translate(-50%,20px);background:#684c50;color:white;padding:11px 18px;border-radius:25px;opacity:0;pointer-events:none;transition:.25s;z-index:5;max-width:90%;text-align:center;font-size:.85rem}.toast.show{opacity:1;transform:translate(-50%,0)}
 @media(max-width:850px){.hero{grid-template-columns:1fr;text-align:center}.intro>p:not(.eyebrow){margin-left:auto;margin-right:auto}.hero-art{max-width:520px;width:100%;margin:auto}.cards{grid-template-columns:repeat(2,1fr)}.wishes{grid-template-columns:1fr;gap:18px}}
 @media(max-width:520px){main{padding:0 16px}.nav{padding:0 16px}.nav a:last-child{font-size:.78rem}.hero{padding:38px 0 28px}.hero-art{height:280px}.sun{width:185px;height:185px}.bear{font-size:8rem}.cake{font-size:2.8rem}.note{padding:19px 15px;margin-bottom:55px}.cards{gap:9px}.cards article{padding:15px 12px}.cards h3{font-size:.92rem}.cards p{font-size:.8rem}.cards button{font-size:.78rem}.quiz{padding:60px 0 50px}.quiz-box{padding:24px 15px}.answers{gap:8px}.answers button{font-size:.88rem;padding:10px 5px}.wishes{padding:23px 17px;margin-bottom:50px}#wishForm .button{width:100%}}
+
+.google-form-container {
+  width: 100%;
+  max-width: 700px;
+  margin: 25px auto 0;
+  padding: 12px;
+  background: #ffffff;
+  border-radius: 20px;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.08);
+  overflow: hidden;
+}
+
+.google-form-container iframe {
+  display: block;
+  width: 100%;
+  min-height: 750px;
+  border: none;
+  border-radius: 14px;
+}
